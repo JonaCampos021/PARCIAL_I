@@ -6,6 +6,15 @@ La clase Consultas usa un diccionario para evitar registrar a un paciente más d
  asegurando que se gestione correctamente si el paciente ya ha sido atendido. La implementación 
  permite que un paciente con una consulta previa sea dirigido a la sala de espera, y el sistema 
  evita duplicar datos al verificar la existencia previa del paciente.
+
+
+ Ejercicio 2: Este ejercicio aborda la creación de un sistema básico de gestión de préstamos en una biblioteca 
+ utilizando programación orientada a objetos en Python. Las clases Libro, Usuario, Prestamo, y Biblioteca se utilizan 
+ para modelar libros, usuarios, transacciones de préstamo, y la biblioteca misma, respectivamente. La clase Libro captura 
+ la información básica del libro y su disponibilidad, mientras que Usuario almacena los datos de identificación del usuario. 
+ Prestamo relaciona un libro con un usuario, junto con las fechas de préstamo y devolución. Finalmente, la clase Biblioteca 
+ administra la lista de préstamos activos y proporciona métodos para prestar libros y mostrar los préstamos actuales. 
+ Este enfoque permite organizar y manejar la lógica del préstamo de manera estructurada y modular.
   
 
 
@@ -19,3 +28,12 @@ La clase Consultas usa un diccionario para evitar registrar a un paciente más d
  el costo total de la estancia, incluyendo servicios extra seleccionados, y genera un resumen detallado.
   En el main(), se crean instancias del Hotel, se recogen las selecciones del usuario y se muestra la 
   factura final con los detalles de la reserva.
+
+  Ejercicio 4:
+  Este ejercicio se centra en la implementación de un sistema de alquiler de vehículos usando programación orientada a objetos 
+  en Python. Se crean cuatro clases principales: Vehiculo, Cliente, Renta, y EmpresaRenta. La clase Vehiculo modela un vehículo 
+  con atributos como tipo, marca, modelo, año, costo de renta, y disponibilidad. La clase Cliente representa a los clientes con 
+  nombre y número de licencia. La clase Renta gestiona la relación entre el cliente y el vehículo, incluyendo las fechas de 
+  alquiler. Finalmente, la clase EmpresaRenta organiza la lista de vehículos y rentas, y proporciona métodos para registrar 
+  vehículos, alquilar vehículos, y mostrar las rentas activas. Este diseño permite manejar el proceso de alquiler de vehículos 
+  de manera estructurada y eficiente.

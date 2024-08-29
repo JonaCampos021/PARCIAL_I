@@ -1,0 +1,21 @@
+Ejercicio 1:
+El código define dos clases para gestionar consultas médicas: 
+Consultorio para almacenar información básica del paciente (nombre, edad, género) y Consultas 
+que extiende Consultorio para manejar detalles específicos de la consulta (motivo y fecha). 
+La clase Consultas usa un diccionario para evitar registrar a un paciente más de una vez,
+ asegurando que se gestione correctamente si el paciente ya ha sido atendido. La implementación 
+ permite que un paciente con una consulta previa sea dirigido a la sala de espera, y el sistema 
+ evita duplicar datos al verificar la existencia previa del paciente.
+  
+
+
+
+
+ Ejercicio 3:
+ El código define una clase Hotel para gestionar reservas, incluyendo habitaciones y servicios extra. 
+ La clase permite mostrar opciones disponibles, calcular precios y generar una factura detallada para 
+ una reserva. La función mostrar_opciones lista habitaciones y servicios con sus precios. El método 
+ obtener_precio recupera el costo basado en la selección del usuario. El método generar_factura calcula 
+ el costo total de la estancia, incluyendo servicios extra seleccionados, y genera un resumen detallado.
+  En el main(), se crean instancias del Hotel, se recogen las selecciones del usuario y se muestra la 
+  factura final con los detalles de la reserva.
